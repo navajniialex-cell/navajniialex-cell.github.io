@@ -3,7 +3,7 @@
   "menu": [
     {
       "icon": "local-movies",
-      "label": "Кино и плееры",
+      "label": "Кино и ТВ-плееры",
       "data": {
         "type": "pages",
         "template": {
@@ -17,7 +17,7 @@
             "items": [
               {
                 "label": "Lampa PRO",
-                "titleFooter": "Сборка с плагинами 4K",
+                "titleFooter": "Фильмы и сериалы 4K",
                 "icon": "local-movies",
                 "color": "msx-deep-purple",
                 "layout": "0,0,3,3",
@@ -25,59 +25,27 @@
               },
               {
                 "label": "Zona",
-                "titleFooter": "Фильмы и сериалы",
+                "titleFooter": "Кино и сериалы",
                 "icon": "movie",
                 "color": "msx-blue",
                 "layout": "3,0,3,3",
                 "action": "content:http://m.zona.ms/msx/start.json"
               },
               {
-                "label": "VoKino",
-                "titleFooter": "Кинотеатр 4K",
-                "icon": "ondemand-video",
-                "color": "msx-indigo",
-                "layout": "6,0,3,3",
-                "action": "link:http://web.vokino.tv"
-              },
-              {
-                "label": "Atodo",
-                "titleFooter": "Каталог кино",
-                "icon": "video-library",
-                "color": "msx-teal",
-                "layout": "9,0,3,3",
-                "action": "link:http://atodo.fun"
-              },
-              {
-                "label": "OTT-play",
-                "titleFooter": "Плеер для IPTV",
+                "label": "DRM-play",
+                "titleFooter": "IPTV плеер + каналы РФ",
                 "icon": "live-tv",
                 "color": "msx-green",
-                "layout": "0,3,3,3",
-                "action": "link:http://ott-play.com/f/"
+                "layout": "6,0,3,3",
+                "action": "link:http://drm-play.com"
               },
               {
-                "label": "SS IPTV",
-                "titleFooter": "Эфирные каналы",
+                "label": "OTT-play FOSS",
+                "titleFooter": "IPTV плеер без блокировок",
                 "icon": "tv",
-                "color": "msx-orange",
-                "layout": "3,3,3,3",
-                "action": "link:http://app.ss-iptv.com"
-              },
-              {
-                "label": "MSXPlayer",
-                "titleFooter": "Магазин порталов",
-                "icon": "apps",
-                "color": "msx-blue-grey",
-                "layout": "6,3,3,3",
-                "action": "link:http://msxplayer.ru"
-              },
-              {
-                "label": "Lampa Clean",
-                "titleFooter": "Официальный клиент",
-                "icon": "tv",
-                "color": "msx-brown",
-                "layout": "9,3,3,3",
-                "action": "link:http://lampa.mx"
+                "color": "msx-teal",
+                "layout": "9,0,3,3",
+                "action": "link:http://ottp.eu.org/f/"
               }
             ]
           }
@@ -86,7 +54,7 @@
     },
     {
       "icon": "live-tv",
-      "label": "Бесплатное IPTV",
+      "label": "Каналы РФ (Прямой запуск)",
       "data": {
         "type": "pages",
         "template": {
@@ -99,35 +67,19 @@
           {
             "items": [
               {
-                "label": "Русскоязычные (250+)",
-                "titleFooter": "Автообновляемый сборник IPTV-org",
+                "label": "Россия: Прямой эфир",
+                "titleFooter": "Каналы с серверов РФ без VPN",
                 "icon": "live-tv",
                 "color": "msx-blue",
                 "layout": "0,0,6,3",
-                "action": "content:user:https://msx.benzac.de/services/m3u.php?type=video&mode=extended&headline=IPTV%20RUS&url=https://iptv-org.github.io/iptv/languages/rus.m3u"
+                "action": "content:user:https://msx.benzac.de/services/m3u.php?type=video&mode=extended&headline=Russia%20TV&url=https://iptv-org.github.io/iptv/countries/ru.m3u"
               },
               {
-                "label": "Россия: Эфирные и HD",
-                "titleFooter": "Федеральные и тематические каналы",
+                "label": "Free-TV: Открытые HD",
+                "titleFooter": "Международные и музыкальные HD",
                 "icon": "hd",
-                "color": "msx-green",
+                "color": "msx-indigo",
                 "layout": "6,0,6,3",
-                "action": "content:user:https://msx.benzac.de/services/m3u.php?type=video&mode=extended&headline=Russia%20TV&url=https://smart-iptv.ru/russia.m3u"
-              },
-              {
-                "label": "Весь мир (10 000+)",
-                "titleFooter": "Каналы по категориям",
-                "icon": "language",
-                "color": "msx-deep-purple",
-                "layout": "0,3,6,3",
-                "action": "content:user:https://msx.benzac.de/services/m3u.php?type=video&mode=extended&headline=World%20IPTV&url=https://iptv-org.github.io/iptv/index.category.m3u"
-              },
-              {
-                "label": "Free-TV: HD сборник",
-                "titleFooter": "Проверенные HD потоки",
-                "icon": "verified",
-                "color": "msx-teal",
-                "layout": "6,3,6,3",
                 "action": "content:user:https://msx.benzac.de/services/m3u.php?type=video&mode=extended&headline=Free-TV%20HD&url=https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
               }
             ]
