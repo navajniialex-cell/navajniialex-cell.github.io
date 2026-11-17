@@ -32,12 +32,12 @@
                 "action": "content:http://m.zona.ms/msx/start.json"
               },
               {
-                "label": "MovieLab",
+                "label": "DEEPLEX",
                 "titleFooter": "Кинозал без регистрации",
                 "icon": "video-library",
                 "color": "msx-indigo",
                 "layout": "8,0,4,3",
-                "action": "menu:https://movielab.fun/msx/menu.json"
+                "action": "content:http://kb-team.club/msx/enter.php"
               },
               {
                 "label": "Prisma TV",
