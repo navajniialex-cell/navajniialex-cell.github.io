@@ -37,7 +37,7 @@
                 "icon": "video-library",
                 "color": "msx-indigo",
                 "layout": "8,0,4,3",
-                "action": "link:http://browser.appinfo.su/"
+                "action": "window:http://browser.appinfo.su/"
               },
               {
                 "label": "Prisma TV",
@@ -45,7 +45,7 @@
                 "icon": "ondemand-video",
                 "color": "msx-teal",
                 "layout": "0,3,6,3",
-                "action": "link:http://prisma.ws/"
+                "action": "window:http://prisma.ws/"
               },
               {
                 "label": "DRM-play",
