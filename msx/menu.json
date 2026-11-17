@@ -8,7 +8,7 @@
         "type": "pages",
         "template": {
           "type": "button",
-          "layout": "0,0,3,3",
+          "layout": "0,0,4,3",
           "color": "msx-glass",
           "iconSize": "large"
         },
@@ -20,32 +20,40 @@
                 "titleFooter": "Фильмы и сериалы 4K",
                 "icon": "local-movies",
                 "color": "msx-deep-purple",
-                "layout": "0,0,3,3",
+                "layout": "0,0,4,3",
                 "action": "link:https://navajniialex-cell.github.io/tv/msx/lampa.html"
               },
               {
                 "label": "Zona",
-                "titleFooter": "Кино и сериалы",
+                "titleFooter": "Кино, сериалы и ТВ",
                 "icon": "movie",
                 "color": "msx-blue",
-                "layout": "3,0,3,3",
+                "layout": "4,0,4,3",
                 "action": "content:http://m.zona.ms/msx/start.json"
               },
               {
-                "label": "DRM-play",
-                "titleFooter": "IPTV плеер + каналы РФ",
-                "icon": "live-tv",
-                "color": "msx-green",
-                "layout": "6,0,3,3",
-                "action": "link:http://drm-play.com"
+                "label": "MovieLab",
+                "titleFooter": "Кинозал без регистрации",
+                "icon": "video-library",
+                "color": "msx-indigo",
+                "layout": "8,0,4,3",
+                "action": "menu:https://movielab.fun/msx/menu.json"
               },
               {
-                "label": "OTT-play FOSS",
-                "titleFooter": "IPTV плеер без блокировок",
-                "icon": "tv",
+                "label": "Prisma TV",
+                "titleFooter": "Онлайн-кинозал без плагинов",
+                "icon": "ondemand-video",
                 "color": "msx-teal",
-                "layout": "9,0,3,3",
-                "action": "link:http://ottp.eu.org/f/"
+                "layout": "0,3,6,3",
+                "action": "link:http://prisma.ws/"
+              },
+              {
+                "label": "DRM-play",
+                "titleFooter": "IPTV-плеер",
+                "icon": "live-tv",
+                "color": "msx-green",
+                "layout": "6,3,6,3",
+                "action": "link:http://drm-play.com"
               }
             ]
           }
