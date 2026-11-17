@@ -14,7 +14,78 @@
     {
       "headline": "Кино, сериалы и плееры",
       "items": [
-        {
+        {{
+  "name": "ТехноШаман TV",
+  "version": "1.0.0",
+  "parameter": "content:https://navajniialex-cell.github.io/msx/menu.json",
+  "welcome": "none",
+  " headline": "ТехноШаман TV",
+  "type": "list",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,3,3",
+    "color": "msx-glass",
+    "iconSize": "large"
+  },
+  "items": [
+    {
+      "title": "Lampa PRO",
+      "titleFooter": "Готовая сборка с плагинами 4K",
+      "icon": "local-movies",
+      "color": "msx-deep-purple",
+      "action": "window:https://navajniialex-cell.github.io/tv/msx/lampa.html"
+    },
+    {
+      "title": "Zona",
+      "titleFooter": "Фильмы и сериалы (MSX)",
+      "icon": "movie",
+      "color": "msx-blue",
+      "action": "content:http://m.zona.ms/msx/start.json"
+    },
+    {
+      "title": "VoKino",
+      "titleFooter": "Кинотеатр с выбором озвучек",
+      "icon": "ondemand-video",
+      "color": "msx-indigo",
+      "action": "content:http://web.vokino.tv/msx/start.json"
+    },
+    {
+      "title": "Atodo",
+      "titleFooter": "Каталог кино без настройки",
+      "icon": "video-library",
+      "color": "msx-teal",
+      "action": "content:http://atodo.fun/msx/start.json"
+    },
+    {
+      "title": "OTT-play",
+      "titleFooter": "Удобный плеер для IPTV",
+      "icon": "live-tv",
+      "color": "msx-green",
+      "action": "content:http://ott-play.com/f/msx/start.json"
+    },
+    {
+      "title": "SS IPTV",
+      "titleFooter": "Плеер эфирных телеканалов",
+      "icon": "tv",
+      "color": "msx-orange",
+      "action": "window:http://app.ss-iptv.com"
+    },
+    {
+      "title": "MSXPlayer",
+      "titleFooter": "Магазин порталов и GetsTV",
+      "icon": "apps",
+      "color": "msx-blue-grey",
+      "action": "content:http://msxplayer.ru/msx/start.json"
+    },
+    {
+      "title": "Lampa Clean",
+      "titleFooter": "Официальный клиент Lampa",
+      "icon": "tv",
+      "color": "msx-brown",
+      "action": "content:http://lampa.mx/msx/start.json"
+    }
+  ]
+}
           "label": "Lampa PRO",
           "titleFooter": "Готовая сборка с плагинами 4K",
           "icon": "local-movies",
