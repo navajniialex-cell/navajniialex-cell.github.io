@@ -29,7 +29,7 @@
                 "icon": "movie",
                 "color": "msx-blue",
                 "layout": "3,0,3,3",
-                "action": "link:http://m.zona.ms"
+                "action": "content:http://m.zona.ms/msx/start.json"
               },
               {
                 "label": "VoKino",
