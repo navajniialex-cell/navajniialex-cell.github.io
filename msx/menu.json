@@ -32,12 +32,12 @@
                 "action": "content:http://m.zona.ms/msx/start.json"
               },
               {
-                "label": "DEEPLEX",
-                "titleFooter": "Кинозал без регистрации",
+                "label": "ForkPlayer",
+                "titleFooter": "Кинозал и поиск без регистрации",
                 "icon": "video-library",
                 "color": "msx-indigo",
                 "layout": "8,0,4,3",
-                "action": "content:http://kb-team.club/msx/enter.php"
+                "action": "link:http://browser.appinfo.su/"
               },
               {
                 "label": "Prisma TV",
